@@ -101,4 +101,48 @@
 
 
 
+// sort array 
 
+// const numbers = [1, 21, 3, 50, 5, 9];
+
+// console.log(numbers.sort());
+
+
+// without using sort method 
+
+// for (let i=0; i<numbers.length; i++){
+//     for(let j=i+1; j<numbers.length; j++){
+//         if(numbers[i]>numbers[j]){
+//             let temp= numbers[i];
+//             numbers[i]= numbers[j]
+//             numbers[j]= temp;
+//         }
+//     }
+// }
+
+
+// console.log(numbers);  // Output: [1, 3, 5, 9, 21, 50]
+
+
+// next question is why we need to use two 2 for loop 
+
+// answer is    we are using bubble sort algorithm   
+
+
+
+
+const numbers = [1, 21, 3, 50, 5, 9];
+let i = 0;
+
+while (i < numbers.length - 1) {
+    if (numbers[i] > numbers[i + 1]) {
+        let temp = numbers[i];
+        numbers[i] = numbers[i + 1];
+        numbers[i + 1] = temp;
+        i = 0; 
+    } else {
+        i++;
+    }
+}
+
+console.log(numbers); // [1, 3, 5, 9, 21, 50]
