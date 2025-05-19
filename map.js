@@ -58,18 +58,47 @@
 // console.log(myuser);
 
 
-var myuser = [
-    { name: 'shark', likes: 'ocean' },
-    { name: 'turtle', likes: 'pond' },
-    { name: 'otter', likes: 'fish biscuits' }
-];
+// var myuser = [
+//     { name: 'shark', likes: 'ocean' },
+//     { name: 'turtle', likes: 'pond' },
+//     { name: 'otter', likes: 'fish biscuits' }
+// ];
 
 // for (var i = 0; i < myuser.length; i++) {
 //     console.log(myuser[i].name + " " + myuser[i].likes);
 // }
 
-for (let i=0; i<myuser.length; i++){
-    console.log(myuser[i]);
-    console.log(myuser[i].name + " " + myuser[i].likes);
+// for (let i=0; i<myuser.length; i++){
+//     console.log(myuser[i]);
+//     console.log(myuser[i].name + " " + myuser[i].likes);
 
-}
+// }
+
+
+// find method 
+// const users = [
+//   { name: 'shark', likes: 'ocean' },
+//   { name: 'turtle', likes: 'pond' },
+//   { name: 'otter', likes: 'fish biscuits' }
+// ];
+
+// const result = users.find((user)=> {
+//   return user.name === 'otter';
+// });
+
+// console.log(result);
+
+
+// reduce method 
+
+// const numbers = [1, 2, 3, 4, 5];    
+
+// const sum = numbers.reduce((accumulator, currentValue) => {
+//     return accumulator + currentValue;
+// })
+
+// console.log(sum);  // output : 15
+
+
+
+
